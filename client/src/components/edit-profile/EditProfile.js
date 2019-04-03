@@ -127,7 +127,7 @@ class EditProfile extends Component {
       instagram
     };
 
-    this.props.EditProfile(profileData, this.props.history);
+    this.props.createProfile(profileData, this.props.history);
   }
 
   onChange(e) {
